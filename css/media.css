@@ -1,0 +1,145 @@
+@media (max-width: 1023px) {
+	.container {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.header-nav li a {
+		font-size: 13px;
+		padding: 12px;
+	}
+	#nav-oppener {
+		display: none;
+	}
+
+	.practis-content {
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	
+	.header-holder {
+		position: relative;
+	}
+
+	#nav-oppener {
+		display: block;
+		background: none;
+		border: none;
+	}
+
+	.fa-bars:before {
+		font-size: 25px;
+	}
+	
+	.nav {
+		position: absolute;
+		left: 0;
+		top: 100%;
+		width: 100%;
+		z-index: 99;
+		background: #fff;
+		transform: translateX(100%);
+		transition: transform 0.5s ease;
+	}
+
+	.nav.active {
+		transform: translateX(0);
+	}
+
+	.header-nav {
+		display: flex;
+		flex-direction: column;
+		border-bottom: 1px solid #000;
+	}
+
+	.header-nav li a {
+		display: inline-block;
+		border-top: 1px solid #000;
+		width: 100%;
+	}
+
+	.lawyer-holder {
+		height: calc(100vh - 110px);
+		min-height: auto;
+	}
+
+	.lawyer-content .btn-yellow {
+		margin-top: 20px;
+	}
+
+	.about-content .history, .about-content .expertise {
+	width: 100%;
+	padding-left: 0;
+	}
+
+	.history {
+		margin-bottom: 40px;
+	}
+
+	.practis-block {
+		width: 100%;
+	}
+
+	.person-item {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+
+	.review {
+		flex-wrap: wrap;
+	}
+
+	.review-content {
+		width: 100%;
+		margin-top: 50px;
+	}
+	
+	.publications-holder{
+		padding-bottom: 70px;
+	}
+
+	.publ-row {
+		flex-wrap: wrap;
+	}
+
+	.publ-item {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.publ-item img {
+		width: 100%;
+	}
+
+	.manual-row {
+		flex-wrap: wrap;
+	}
+	.questions, .answer {
+		width: 100%;
+	}
+
+	.contact {
+		flex-wrap: wrap;
+	}
+
+	.form-contact, .map {
+		width: 100%;
+	}
+
+	.map {
+		margin-top: 40px;
+		text-align: center;
+		padding-bottom: 40px;
+		padding-left: 15px;
+	}
+	
+	.map .google-map {
+		box-shadow: -15px 15px #e8bf5d;
+		display: inline-block;
+		width: 100%;
+	}
+
+}
+
