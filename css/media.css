@@ -66,6 +66,10 @@
 		min-height: auto;
 	}
 
+	.lawyer-content {
+		padding-bottom: 40px;
+	}
+
 	.lawyer-content .btn-yellow {
 		margin-top: 20px;
 	}
