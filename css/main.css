@@ -787,6 +787,7 @@ input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholde
 .form-contact .btn-yellow {
 	border: none;
 	margin-top: 40px;
+	cursor: pointer;
 }
 
 .map {
