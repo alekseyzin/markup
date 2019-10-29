@@ -151,11 +151,8 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	align-items: center;
 	background: url(../images/adam_suaerez_bg.jpg) no-repeat center center;
 	background-size: cover;
-	/*background: linear-gradient(to top, #333 30%, transparent 50% );*/
-	width: 100%;
 	min-height: 840px;
 	position: relative;
 }
