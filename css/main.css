@@ -182,7 +182,7 @@ header {
 	width: 100%;
 	position: relative;
 	z-index: 2;
-	padding: 0 100px 140px;
+	padding-bottom: 140px;
 }
 
 .lawyer {
@@ -570,7 +570,7 @@ header {
 }
 
 .publ-item h3:hover {
-	color: grey;
+	color: #e8bf5d;
 }
 
 .aut-dt {
@@ -640,7 +640,7 @@ header {
 }
 
 .link .comments:hover, .link .share:hover {
-	color: grey;
+	color: #e8bf5d;
 }
 /*publications end*/
 
@@ -833,7 +833,7 @@ input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholde
 }
 
 .social a:hover {
-	color: grey;
+	color: #e8bf5d;
 }
 
 
