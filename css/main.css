@@ -114,6 +114,11 @@ header {
 
 #nav-oppener {
 	display: none;
+	cursor: pointer;
+}
+
+#nav-oppener:focus {
+	outline: none;
 }
 
 .header-nav li a {
