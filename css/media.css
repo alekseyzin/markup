@@ -8,18 +8,6 @@
 		font-size: 13px;
 		padding: 12px;
 	}
-	#nav-oppener {
-		display: none;
-		cursor: pointer;
-	}
-
-	#nav-oppener:hover {
-		color: #e8bf5d;
-	}
-
-	#nav-oppener:focus {
-		outline: none;
-	}
 
 	.practis-content {
 		padding-left: 0;
@@ -33,10 +21,19 @@
 		min-height: 70px;
 	}
 
-	#nav-oppener {
+	.nav-oppener {
 		display: block;
 		background: none;
 		border: none;
+		cursor: pointer;
+	}
+
+	.nav-oppener:hover {
+		color: #e8bf5d;
+	}
+
+	.nav-oppener:focus {
+		outline: none;
 	}
 
 	.fa-bars:before {
