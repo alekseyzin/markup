@@ -81,6 +81,10 @@ a {
 	margin: 0 auto;
 }
 
+.uppercase {
+	text-transform: uppercase;
+}
+
 /*HEADER START*/
 
 header {
