@@ -91,6 +91,11 @@
 
 	.practis-block {
 		width: 100%;
+		padding-left: 60px;
+	}
+
+	.practis-block::before {
+		left: 0;
 	}
 
 	.person-item {
