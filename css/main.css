@@ -791,7 +791,11 @@ input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholde
 
 .map .google-map {
 	box-shadow: -30px 30px #e8bf5d;
+	overflow:hidden;
+	max-width: 363px;
+	position: relative;
 }
+
 /*contact end*/
 
 /*footer start*/
